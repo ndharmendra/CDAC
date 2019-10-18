@@ -1,0 +1,1 @@
+# generate dictionary of 1 to given number and there squaredict = {}n = int(input("Enter Number: "))for i in range(1, n+1):    dict[i] = i*iprint(dict)

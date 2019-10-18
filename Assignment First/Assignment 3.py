@@ -1,0 +1,1 @@
+# take a list and generate tuple and listi = input("Numbers element: ")lst2 = i.split(",")lst = []for i in lst2:    lst.append(i)print(lst)print(tuple(lst)) # To convert list in tuple

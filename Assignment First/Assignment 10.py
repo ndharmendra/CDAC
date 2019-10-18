@@ -1,0 +1,1 @@
+# find no. of digit and alphabetdef count(x):    lst = [i for i in " ".join(x).split()]    L = 0    D = 0    for n in lst:        if n.isalpha():            L += 1        elif n.isalnum():            D += 1    print("LETTERS", L)    print("DIGITS", D)x = input("enter sentence: ")count(x)

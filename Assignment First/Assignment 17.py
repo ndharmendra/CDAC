@@ -1,0 +1,1 @@
+# generate random float value botweem 5 to 95import randomprint(random.uniform(5, 95))

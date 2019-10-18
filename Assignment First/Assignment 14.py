@@ -1,0 +1,1 @@
+import operatordef Sort_Tuple(tup):    tup.sort(key=operator.itemgetter(0, 1, 2))    return tupn = input("Number of tuple: ")lst = []for i in range(0, int(n)):    t = (x for x in input("Name,age,score: ").split(","))    lst.append(tuple(t))print(Sort_Tuple(lst))

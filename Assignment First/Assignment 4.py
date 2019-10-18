@@ -1,0 +1,1 @@
+import mathD = input("Numbers element: ")C = 50H = 30lst2 = D.split(",")for D in lst2:    i = math.sqrt((2*C*int(D))/H) # sqrt() for calculate square root    print(int(i), end=",")

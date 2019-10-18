@@ -1,0 +1,1 @@
+# find no. of lower and upper casedef count(x):    lst = [i for i in " ".join(x).split()]    L = 0    D = 0    for n in lst:        if n.isupper():            L += 1        elif n.islower():            D += 1    print("UPPER CASE", L)    print("LOWER CASE", D)x = input("enter sentence: ")count(x)

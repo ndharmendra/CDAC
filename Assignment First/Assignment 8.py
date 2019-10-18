@@ -1,0 +1,1 @@
+# take 4 digit number and check is divisible by 5 or notlst = [x for x in input("Enter 4 digit numbers: ").split(",")]for i in lst:    i = int(i)    if i in range(1000, 10000):        if i % 5 == 0:            print(i, end=" ")    else:        print(" Enter only 4 digit number ")        break

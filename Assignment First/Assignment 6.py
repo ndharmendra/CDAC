@@ -1,0 +1,1 @@
+# capitalized all alphabet of sentenceprint("To separate line used comma")items = [x for x in input().split(",")]for i in items:    print(i.upper())

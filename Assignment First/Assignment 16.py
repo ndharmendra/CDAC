@@ -1,0 +1,1 @@
+# print even number from list using lambda expressionlst = [i for i in range(1, 21)]x = list(filter(lambda i: i % 2 == 0, lst))print(x)
